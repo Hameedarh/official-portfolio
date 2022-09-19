@@ -1,0 +1,23 @@
+.theme-dark {
+    --dark-text: brown;
+    --dark-background: black;
+    --light-background:black;
+  }
+  .theme-light {
+    --light-text: rgb(194, 39, 155);
+    --dark-background: beige;
+    --light-background: beige;
+  }
+  html, #root {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+  }
+  
+  nav {
+    /* background-color: var(--dark-background); */
+    color: var(--light-text);
+  }
+  
+  /* .main-container {
+    background-color: var(--light-background);
+  } */
