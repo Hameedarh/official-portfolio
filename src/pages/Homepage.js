@@ -31,8 +31,11 @@ function Homepage() {
               <h1>Hi!!</h1>
               <h2>I'm AJIBADE HAMIDAT ABISOLA</h2>
             </div>
+            <div className='slide2'>
+            <h3>A FrontEnd Developer</h3>
+            </div>
           </div>
-          <img src={img} alt='prof' style={{width:"400px", height:"500px"}}/>
+          {/* <img src={img} alt='prof' style={{width:"400px", height:"500px"}}/> */}
         </div>
       </section>
     </div>

@@ -16,13 +16,13 @@ function Toggle() {
         }
     }
 
-    useEffect(() => {
-        if (localStorage.getItem('theme') === 'theme-dark') {
-            setTogClass('dark')
-        } else if (localStorage.getItem('theme') === 'theme-light') {
-            setTogClass('light')
-        }
-    }, [theme])
+    // useEffect(() => {
+    //     if (localStorage.getItem('theme') === 'theme-dark') {
+    //         setTogClass('dark')
+    //     } else if (localStorage.getItem('theme') === 'theme-light') {
+    //         setTogClass('light')
+    //     }
+    // }, [theme])
 
     return (
         <div className="container--toggle">

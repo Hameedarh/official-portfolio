@@ -1,12 +1,12 @@
 .theme-dark {
-    --dark-text: brown;
+     --dark-text: brown;
     --dark-background: black;
     --light-background:black;
   }
   .theme-light {
-    --light-text: rgb(194, 39, 155);
-    --dark-background: beige;
-    --light-background: beige;
+    --light-text:#5f27cd;
+    --dark-background: #f1f1f1;
+    --light-background: #f1f1f1;
   }
   html, #root {
     background-color: var(--dark-background);
